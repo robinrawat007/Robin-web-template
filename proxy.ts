@@ -1,4 +1,4 @@
-// middleware.ts  (root of project, same level as package.json)
+// proxy.ts  (root of project, same level as package.json)
 // FIXES: OTP / magic link not advancing to next page after entering code.
 // This middleware refreshes the Supabase session on EVERY request so the
 // auth cookie stays valid. Without this, session tokens expire mid-flow
@@ -17,7 +17,7 @@
 import { createServerClient } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
 
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   let supabaseResponse = NextResponse.next({ request })
 
   const supabase = createServerClient(
