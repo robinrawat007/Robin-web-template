@@ -129,7 +129,7 @@ export const SiteContentSchema = z.object({
 })
 
 export function validateContent(raw: unknown): SiteContent {
-  return SiteContentSchema.parse(raw) as SiteContent
+  return SiteContentSchema.parse(raw) as unknown as SiteContent
 }
 
 export function safeValidateContent(raw: unknown) {
