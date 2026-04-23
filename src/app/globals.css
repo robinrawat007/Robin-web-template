@@ -1,0 +1,121 @@
+/* src/app/globals.css */
+/* Tailwind v4 — no tailwind.config.js needed */
+/* CSS variables are set in layout.tsx from content.json theme */
+/* These @theme tokens make the variables available as Tailwind utilities */
+
+@import "tailwindcss";
+
+@theme {
+  /* Brand colors — overridden per-client via layout.tsx <style> injection */
+  --color-primary: #1b6e5e;
+  --color-primary-light: #2a9d8f;
+  --color-accent: #e9c46a;
+  --color-bg: #fafaf8;
+  --color-bg-card: #ffffff;
+  --color-text: #1c1c1c;
+  --color-text-muted: #6b6b6b;
+  --color-border: #e5e5e0;
+
+  /* Fonts */
+  --font-heading: 'DM Serif Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+}
+
+/* ─── Base resets ──────────────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Typography ───────────────────────────────────────────────────────────── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 400; /* RULE: headline font-weight never above 600 */
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+/* ─── Section spacing ──────────────────────────────────────────────────────── */
+/* RULE: section padding min 96px desktop / 64px mobile */
+
+.section {
+  padding-top: 4rem;    /* 64px mobile */
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 6rem;  /* 96px desktop */
+    padding-bottom: 6rem;
+  }
+}
+
+/* ─── Focus states ─────────────────────────────────────────────────────────── */
+/* RULE: every interactive element must have visible focus state */
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* ─── Images ───────────────────────────────────────────────────────────────── */
+/* RULE: images always have aspect-ratio locked */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ─── Scrollbar ────────────────────────────────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ─── Utility: sr-only ─────────────────────────────────────────────────────── */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

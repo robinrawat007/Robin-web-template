@@ -1,0 +1,376 @@
+{
+  "business": {
+    "name": "Dr. Sharma Dental Care",
+    "tagline": "Gentle Care. Confident Smiles.",
+    "description": "A modern dental clinic offering comprehensive dental care for the whole family. Over 15 years of trusted service in New Delhi.",
+    "phone": "+91 98765 43210",
+    "email": "care@sharmadentalcare.in",
+    "address": "B-12, Lajpat Nagar, New Delhi - 110024",
+    "hours": {
+      "weekdays": "Mon–Sat: 9 AM – 8 PM",
+      "sunday": "Sun: 10 AM – 2 PM"
+    },
+    "mapsUrl": "https://maps.google.com/?q=Lajpat+Nagar+New+Delhi",
+    "whatsapp": "919876543210",
+    "logo": "/logo.png"
+  },
+  "seo": {
+    "title": "Dr. Sharma Dental Care | New Delhi",
+    "description": "Top-rated dental clinic in Lajpat Nagar, New Delhi. Offering general dentistry, orthodontics, implants, and cosmetic dentistry. Book appointment today.",
+    "keywords": ["dentist new delhi", "dental clinic lajpat nagar", "teeth whitening delhi", "orthodontist delhi"],
+    "ogImage": "/og-image.jpg"
+  },
+  "theme": {
+    "primary": "#1B6E5E",
+    "primaryLight": "#2A9D8F",
+    "accent": "#E9C46A",
+    "bg": "#FAFAF8",
+    "bgCard": "#FFFFFF",
+    "text": "#1C1C1C",
+    "textMuted": "#6B6B6B",
+    "border": "#E5E5E0",
+    "fontHeading": "'DM Serif Display', Georgia, serif",
+    "fontBody": "'DM Sans', system-ui, sans-serif"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "split",
+      "visible": true,
+      "content": {
+        "headline": "Your Family's Smile Is Our Priority",
+        "subheadline": "Gentle, modern dental care for every age. Trusted by 5,000+ patients across New Delhi.",
+        "cta": { "label": "Book a Free Consultation", "href": "#booking" },
+        "ctaSecondary": { "label": "View Services", "href": "#services" },
+        "image": "/hero-dental.jpg",
+        "badge": "15+ Years of Trusted Care"
+      }
+    },
+    {
+      "type": "about",
+      "visible": true,
+      "content": {
+        "headline": "About Dr. Sharma Dental Care",
+        "story": "Founded in 2009 by Dr. Rajesh Sharma, our clinic has been built on one belief: every patient deserves pain-free, compassionate dental care. We combine the latest technology with a gentle touch to make sure your visit is comfortable from start to finish.",
+        "image": "/clinic-interior.jpg",
+        "stats": [
+          { "value": "15+", "label": "Years Experience" },
+          { "value": "5,000+", "label": "Happy Patients" },
+          { "value": "98%", "label": "Patient Satisfaction" },
+          { "value": "12", "label": "Expert Staff" }
+        ]
+      }
+    },
+    {
+      "type": "services",
+      "visible": true,
+      "content": {
+        "headline": "Our Services",
+        "subheadline": "Comprehensive dental care under one roof"
+      }
+    },
+    {
+      "type": "why-us",
+      "visible": true,
+      "content": {
+        "headline": "Why Patients Choose Us",
+        "subheadline": "We do things differently",
+        "features": [
+          { "icon": "shield", "title": "Pain-Free Treatment", "description": "Advanced anaesthesia and gentle techniques. Most patients report zero discomfort." },
+          { "icon": "clock", "title": "On-Time Appointments", "description": "We respect your time. Our average wait time is under 5 minutes." },
+          { "icon": "star", "title": "Latest Technology", "description": "Digital X-rays, 3D scanning, and same-day crowns with CEREC." },
+          { "icon": "heart", "title": "Family-Friendly", "description": "Dedicated kids' zone and gentle approach for anxious patients." },
+          { "icon": "award", "title": "Certified Specialists", "description": "BDS, MDS qualified doctors with international training." },
+          { "icon": "phone", "title": "24/7 Emergency Care", "description": "Dental emergencies don't wait. Call us anytime." }
+        ]
+      }
+    },
+    {
+      "type": "pricing",
+      "visible": true,
+      "content": {
+        "headline": "Transparent Pricing",
+        "subheadline": "No hidden charges. What you see is what you pay."
+      }
+    },
+    {
+      "type": "team",
+      "visible": true,
+      "content": {
+        "headline": "Meet Our Doctors",
+        "subheadline": "Qualified, experienced, and genuinely caring"
+      }
+    },
+    {
+      "type": "testimonials",
+      "visible": true,
+      "content": {
+        "headline": "What Our Patients Say",
+        "subheadline": "5,000+ happy smiles and counting"
+      }
+    },
+    {
+      "type": "gallery",
+      "visible": true,
+      "content": {
+        "headline": "Our Clinic",
+        "subheadline": "Modern, clean, and welcoming"
+      }
+    },
+    {
+      "type": "faq",
+      "visible": true,
+      "content": {
+        "headline": "Common Questions",
+        "subheadline": "Everything you need to know before your visit"
+      }
+    },
+    {
+      "type": "booking",
+      "visible": true,
+      "content": {
+        "headline": "Book Your Appointment",
+        "subheadline": "Choose a time that works for you — we'll confirm within 2 hours",
+        "calcomUrl": "https://cal.com/sharma-dental/consultation"
+      }
+    },
+    {
+      "type": "cta-banner",
+      "visible": true,
+      "content": {
+        "headline": "Ready for a Healthier Smile?",
+        "subheadline": "First consultation is free. No commitment.",
+        "cta": { "label": "Book Now — It's Free", "href": "#booking" }
+      }
+    },
+    {
+      "type": "contact",
+      "visible": true,
+      "content": {
+        "headline": "Get in Touch",
+        "subheadline": "We're here Monday through Saturday"
+      }
+    },
+    {
+      "type": "blog",
+      "visible": false,
+      "content": {
+        "headline": "Dental Health Tips",
+        "subheadline": "Expert advice from our doctors"
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "general",
+      "name": "General Dentistry",
+      "description": "Routine checkups, cleanings, fillings, and preventive care to keep your teeth healthy.",
+      "icon": "tooth",
+      "image": "/services/general.jpg",
+      "featured": true
+    },
+    {
+      "id": "orthodontics",
+      "name": "Orthodontics",
+      "description": "Metal braces, ceramic braces, and Invisalign for teens and adults.",
+      "icon": "smile",
+      "image": "/services/orthodontics.jpg",
+      "featured": true
+    },
+    {
+      "id": "implants",
+      "name": "Dental Implants",
+      "description": "Permanent, natural-looking tooth replacement with titanium implants.",
+      "icon": "anchor",
+      "image": "/services/implants.jpg",
+      "featured": true
+    },
+    {
+      "id": "cosmetic",
+      "name": "Cosmetic Dentistry",
+      "description": "Teeth whitening, veneers, and smile makeovers.",
+      "icon": "sparkles",
+      "image": "/services/cosmetic.jpg",
+      "featured": true
+    },
+    {
+      "id": "rct",
+      "name": "Root Canal Treatment",
+      "description": "Pain-free RCT with rotary endodontics and digital apex locators.",
+      "icon": "activity",
+      "image": "/services/rct.jpg",
+      "featured": false
+    },
+    {
+      "id": "pediatric",
+      "name": "Pediatric Dentistry",
+      "description": "Gentle dental care designed specifically for children.",
+      "icon": "heart",
+      "image": "/services/pediatric.jpg",
+      "featured": false
+    }
+  ],
+  "team": [
+    {
+      "id": "rajesh",
+      "name": "Dr. Rajesh Sharma",
+      "role": "Lead Dentist & Founder",
+      "qualification": "BDS, MDS (Oral Surgery)",
+      "experience": "15 years",
+      "bio": "Trained at AIIMS Delhi with additional fellowship in implantology from Germany.",
+      "image": "/team/rajesh.jpg"
+    },
+    {
+      "id": "priya",
+      "name": "Dr. Priya Mehta",
+      "role": "Orthodontist",
+      "qualification": "BDS, MDS (Orthodontics)",
+      "experience": "8 years",
+      "bio": "Specialist in Invisalign and aesthetic orthodontics. Certified Invisalign provider.",
+      "image": "/team/priya.jpg"
+    },
+    {
+      "id": "arjun",
+      "name": "Dr. Arjun Kapoor",
+      "role": "Cosmetic Dentist",
+      "qualification": "BDS, Fellow ICOI",
+      "experience": "6 years",
+      "bio": "Specialises in smile design, veneers, and full-mouth rehabilitation.",
+      "image": "/team/arjun.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Sneha Gupta",
+      "location": "Lajpat Nagar",
+      "rating": 5,
+      "text": "I was terrified of dentists my whole life. Dr. Sharma changed that completely. The root canal was genuinely painless.",
+      "date": "2024-11",
+      "service": "Root Canal"
+    },
+    {
+      "id": "t2",
+      "name": "Rahul Verma",
+      "location": "Defence Colony",
+      "rating": 5,
+      "text": "Got Invisalign done with Dr. Priya. 14 months and my teeth are perfect. The staff is incredibly warm and the clinic is spotless.",
+      "date": "2024-10",
+      "service": "Invisalign"
+    },
+    {
+      "id": "t3",
+      "name": "Anita Sharma",
+      "location": "Hauz Khas",
+      "rating": 5,
+      "text": "Brought my 6-year-old here and the experience was wonderful. He actually looks forward to dental visits now.",
+      "date": "2024-12",
+      "service": "Pediatric Dentistry"
+    },
+    {
+      "id": "t4",
+      "name": "Vikram Malhotra",
+      "location": "GK-2",
+      "rating": 5,
+      "text": "3 dental implants done over 4 months. Results are indistinguishable from real teeth. No surprise bills — pricing was transparent throughout.",
+      "date": "2024-09",
+      "service": "Dental Implants"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "f1",
+      "question": "Do you offer painless treatments?",
+      "answer": "Yes. We use the latest anaesthesia techniques and topical numbing gels to ensure a completely comfortable experience. Most patients report feeling nothing during their procedure."
+    },
+    {
+      "id": "f2",
+      "question": "How do I book an appointment?",
+      "answer": "You can book online via the booking section on this page, call us directly, or message us on WhatsApp. We confirm within 2 hours."
+    },
+    {
+      "id": "f3",
+      "question": "Do you accept dental insurance?",
+      "answer": "We accept all major dental insurance plans. Our team will help you understand your coverage and maximize your benefits before treatment begins."
+    },
+    {
+      "id": "f4",
+      "question": "How long does a typical appointment take?",
+      "answer": "A routine checkup + cleaning takes 45–60 minutes. Procedures like fillings take 30–45 minutes. We'll give you a time estimate when you book."
+    },
+    {
+      "id": "f5",
+      "question": "What should I do in a dental emergency?",
+      "answer": "Call our emergency line immediately. We keep emergency slots open every day and will guide you on what to do while you travel to the clinic."
+    },
+    {
+      "id": "f6",
+      "question": "Do you treat children?",
+      "answer": "Absolutely. We have a dedicated pediatric dentist and a kids' waiting zone. We recommend first visits around age 2–3 to build good habits early."
+    }
+  ],
+  "gallery": [
+    { "id": "g1", "src": "/gallery/reception.jpg", "alt": "Modern reception area", "category": "clinic" },
+    { "id": "g2", "src": "/gallery/treatment-room.jpg", "alt": "Fully equipped treatment room", "category": "clinic" },
+    { "id": "g3", "src": "/gallery/xray-room.jpg", "alt": "Digital X-ray room", "category": "clinic" },
+    { "id": "g4", "src": "/gallery/smile1.jpg", "alt": "Patient smile transformation", "category": "results" },
+    { "id": "g5", "src": "/gallery/smile2.jpg", "alt": "Before and after orthodontics", "category": "results" },
+    { "id": "g6", "src": "/gallery/smile3.jpg", "alt": "Implant result", "category": "results" }
+  ],
+  "pricing": [
+    {
+      "id": "basic",
+      "name": "Basic Checkup",
+      "price": 500,
+      "currency": "₹",
+      "description": "For first-time patients and annual checkups",
+      "features": ["Full oral examination", "Digital X-ray", "Treatment plan", "Oral hygiene advice"],
+      "highlighted": false,
+      "cta": "Book Checkup"
+    },
+    {
+      "id": "cleaning",
+      "name": "Checkup + Cleaning",
+      "price": 1200,
+      "currency": "₹",
+      "description": "Most popular — complete preventive care",
+      "features": [
+        "Full oral examination",
+        "Digital X-ray",
+        "Professional scaling",
+        "Polishing",
+        "Fluoride treatment",
+        "Treatment plan"
+      ],
+      "highlighted": true,
+      "cta": "Book Now"
+    },
+    {
+      "id": "cosmetic-consult",
+      "name": "Smile Consultation",
+      "price": 800,
+      "currency": "₹",
+      "description": "For whitening, veneers, or smile makeover planning",
+      "features": [
+        "Smile assessment",
+        "Digital smile preview",
+        "Personalised plan",
+        "Cost breakdown"
+      ],
+      "highlighted": false,
+      "cta": "Book Consultation"
+    }
+  ],
+  "integrations": {
+    "calcom": "sharma-dental/consultation",
+    "ga4": "G-XXXXXXXXXX",
+    "whatsapp": "919876543210"
+  },
+  "featureFlags": {
+    "showBlog": false,
+    "showPricing": true,
+    "showGallery": true,
+    "showTeam": true,
+    "showAuth": false
+  }
+}
